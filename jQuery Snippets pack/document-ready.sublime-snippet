@@ -4,5 +4,5 @@
 \});]]></content>
 	<tabTrigger>$ready</tabTrigger>
 	<scope>source.js,source.js.embedded.html</scope>
-	<description>jQuery ready function</description>
+	<description>$ ready function</description>
 </snippet>
