@@ -1,0 +1,22 @@
+{
+	"auto_upgrade_last_run": 1326425526,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"HTML5",
+		"jQuery Snippets pack",
+		"JsFormat",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"SCSS",
+		"SideBarEnhancements",
+		"sublime-jslint",
+		"SublimeBrackets",
+		"SublimeCodeIntel",
+		"SublimeTagmatcher",
+		"Terminal",
+		"TrailingSpaces",
+		"WordHighlight"
+	]
+}
