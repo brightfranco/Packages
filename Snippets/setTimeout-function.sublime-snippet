@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[setTimeout(function () {
+	${2:console.log('timeout');}
+}, ${1:2000});]]></content>
+	<tabTrigger>timeout</tabTrigger>
+	<scope>source.js</scope>
+	<description>setTimeout function</description>
+</snippet>

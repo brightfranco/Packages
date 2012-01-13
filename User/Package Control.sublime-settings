@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1326429757,
+	"auto_upgrade_last_run": 1326433868,
 	"installed_packages":
 	[
 		"CoffeeScript",
@@ -16,6 +16,7 @@
 		"SublimeCodeIntel",
 		"SublimeTagmatcher",
 		"Terminal",
+		"Theme - Soda",
 		"TrailingSpaces",
 		"WordHighlight"
 	]
