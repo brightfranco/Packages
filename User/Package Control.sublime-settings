@@ -1,27 +1,7 @@
 {
-<<<<<<< HEAD
-	"auto_upgrade_last_run": 1326835972,
-=======
-	"auto_upgrade_last_run": 1326860610,
->>>>>>> 40ed646e8374e11084c000aab1992cf918a13190
+	"auto_upgrade_last_run": 1326905483,
 	"installed_packages":
 	[
-		"CoffeeScript",
-		"HTML5",
-		"jQuery Snippets pack",
-		"JsFormat",
-		"Nettuts+ Fetch",
-		"Package Control",
-		"Prefixr",
-		"SCSS",
-		"SideBarEnhancements",
-		"sublime-jslint",
-		"SublimeBrackets",
-		"SublimeCodeIntel",
-		"SublimeTagmatcher",
-		"Terminal",
-		"Theme - Soda",
-		"TrailingSpaces",
-		"WordHighlight"
+		"SideBarEnhancements"
 	]
 }
