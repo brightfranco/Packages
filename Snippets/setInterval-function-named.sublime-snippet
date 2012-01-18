@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[setInterval('${1:functionName}()', ${2:2000});]]></content>
 	<tabTrigger>intervalnamed</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
 	<description>setInterval function (named)</description>
 </snippet>

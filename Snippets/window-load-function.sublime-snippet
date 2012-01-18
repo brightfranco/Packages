@@ -1,0 +1,8 @@
+<snippet>
+		<content><![CDATA[\$(window).load(function() {
+	${0:// Do stuff}
+});]]></content>
+		<tabTrigger>window</tabTrigger>
+		<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
+		<description>$(window).load function</description>
+</snippet>

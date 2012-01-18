@@ -4,5 +4,5 @@
 , ${1:2000});]]></content>
 	<tabTrigger>interval</tabTrigger>
 	<scope>source.js</scope>
-	<description>setInterval function</description>
+	<description>setInterval function (anonymous)</description>
 </snippet>

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"auto_upgrade_last_run": 1326835972,
+=======
+	"auto_upgrade_last_run": 1326860610,
+>>>>>>> 40ed646e8374e11084c000aab1992cf918a13190
 	"installed_packages":
 	[
 		"CoffeeScript",
