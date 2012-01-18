@@ -4,5 +4,5 @@
 }, ${1:2000});]]></content>
 	<tabTrigger>timeout</tabTrigger>
 	<scope>source.js</scope>
-	<description>setTimeout function</description>
+	<description>setTimeout function (anonymous)</description>
 </snippet>
