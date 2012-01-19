@@ -1,7 +1,23 @@
 {
-	"auto_upgrade_last_run": 1326905483,
+	"auto_upgrade_last_run": 1326992131,
 	"installed_packages":
 	[
-		"SideBarEnhancements"
+		"CoffeeScript",
+		"HTML5",
+		"jQuery Snippets pack",
+		"JsFormat",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"SCSS",
+		"SideBarEnhancements",
+		"sublime-jslint",
+		"SublimeBrackets",
+		"SublimeCodeIntel",
+		"SublimeTagmatcher",
+		"Terminal",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"WordHighlight"
 	]
 }
