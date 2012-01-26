@@ -237,7 +237,7 @@ class SideBarItem:
 			options.bookmarks.append([view.text_point(line_s, col_s), view.text_point(line_e, col_e)])
 
 		options.folds = []
-		if sublime.version() >= 2167:
+		if int(sublime.version()) >= 2167:
 			for sel in view.folded_regions():
 				line_s, col_s = view.rowcol(sel.a); line_e, col_e = view.rowcol(sel.b)
 				options.folds.append([view.text_point(line_s, col_s), view.text_point(line_e, col_e)])
@@ -266,7 +266,7 @@ class SideBarItem:
 
 	def _move_restoreView(self, view, options):
 		if view.is_loading():
-			sublime.set_timeout(lambda: self._moveViewRestore(view, options), 100)
+			sublime.set_timeout(lambda: self._move_restoreView(view, options), 100)
 		else:
 			if options.content != False:
 				edit = view.begin_edit()
