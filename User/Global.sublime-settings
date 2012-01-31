@@ -1,7 +1,10 @@
 {
+	"detect_slow_plugins": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Soda Dark.sublime-theme"
+	"remember_open_files": false,
+	"theme": "Soda Dark.sublime-theme",
+	"use_simple_full_screen": true
 }
