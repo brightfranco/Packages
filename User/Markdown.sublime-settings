@@ -1,3 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme"
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": false
 }
