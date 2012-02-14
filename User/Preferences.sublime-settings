@@ -3,22 +3,23 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
 	"detect_indentation": true,
-	"detect_slow_plugins": false,
+	//"detect_slow_plugins": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"font_face": "Meslo LG L DZ",
 	"font_size": 12.0,
 	"highlight_line": true,
 	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"open_files_in_new_window": false,
 	"remember_open_files": false,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"use_tab_stops": true
+	"use_tab_stops": true,
+	"ignored_packages":
+		[
+			"Vintage"
+		]
 }
