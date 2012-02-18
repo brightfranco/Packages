@@ -17,4 +17,4 @@
 
 *(this command needs to be run on every machine where the repo is cloned)*
 
-	git update-index --assume-unchanged User/Package\ Control.sublime-settings; git update-index --assume-unchanged SideBarEnhancements/package-metadata.json;
+	git update-index --assume-unchanged User/Package\ Control.sublime-settings; git update-index --assume-unchanged SideBarEnhancements/package-metadata.json; git update-index --assume-unchanged SyncedSideBar/SyncedSideBar.py; git update-index --assume-unchanged SyncedSideBar/package-metadata.json;

@@ -2,5 +2,5 @@
 	<content><![CDATA[${1:variable} = (${2:condition}) ? ${3:true} : ${4:false};]]></content>
 	<tabTrigger>if</tabTrigger>
 	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-	<description>If..else (shorthand)</description>
+	<description>if ... else (Ternary shorthand)</description>
 </snippet>
