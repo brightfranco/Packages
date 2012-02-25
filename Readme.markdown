@@ -12,7 +12,7 @@
 
 - Also using my own icon: `/User/Sublime Text 2.icns`. Replace the one in `/Applications/Sublime Text 2.app/Contents/Resources` (or just run `User/Extras/Replace ST2 icon.app`)
 
-- Change the default comment syntax in Haml from "//" to "-#" by editing line 17 in `Rails/Ruby Haml Comments.tmPreferences`.
+- Change the default comment syntax in Haml from `//` to `-#` by editing line 17 in `Rails/Ruby Haml Comments.tmPreferences`.
 
 ##Files to ignore changes to but still keep in the repo: 
 
