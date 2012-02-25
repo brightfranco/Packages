@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[setInterval(function () {
 	${2:console.log('interval');}
-, ${1:2000});]]></content>
+}, ${1:2000});]]></content>
 	<tabTrigger>interval</tabTrigger>
 	<scope>source.js</scope>
 	<description>setInterval function (anonymous)</description>
