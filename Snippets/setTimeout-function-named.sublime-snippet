@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[setTimeout('${1:functionName}()', ${2:2000});]]></content>
+	<content><![CDATA[var ${1:t};
+${1:t} = setTimeout(${2:functionName}, ${3:2000});]]></content>
 	<tabTrigger>timeoutnamed</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
 	<description>setTimeout function (named)</description>
 </snippet>
