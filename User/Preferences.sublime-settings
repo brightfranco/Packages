@@ -1,17 +1,51 @@
 {
 	"auto_indent": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"color_scheme": "Packages/User/Themes/Tomorrow/Tomorrow-Night.tmTheme",
 	"detect_indentation": true,
-	//"detect_slow_plugins": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
-	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sassc", "*.scssc"],
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".sass-cache", "build"],
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sassc",
+		"*.scssc"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"build"
+	],
 	"font_face": "Meslo LG L DZ",
 	"font_size": 12.0,
 	"highlight_line": true,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
 	"tab_size": 4,
@@ -20,9 +54,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"use_tab_stops": true,
-	"word_wrap": true,
-	"ignored_packages":
-		[
-			"Vintage"
-		]
+	"word_wrap": true
 }
