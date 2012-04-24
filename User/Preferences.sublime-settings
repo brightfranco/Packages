@@ -54,5 +54,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"use_tab_stops": true,
+	"wide_caret": true,
 	"word_wrap": true
 }
