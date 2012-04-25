@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1334678946,
+	"auto_upgrade_last_run": 1335324929,
 	"installed_packages":
 	[
 		"AutoFileName",
@@ -7,13 +7,11 @@
 		"CoffeeScript",
 		"ColorPicker",
 		"Default File Type",
-		"Goto-CSS-Declaration",
 		"Haml",
 		"HTML5",
 		"jQuery",
 		"jQuery Snippets pack",
 		"JsFormat",
-		"Markdown Preview",
 		"Nettuts+ Fetch",
 		"Package Control",
 		"Prefixr",
@@ -24,7 +22,6 @@
 		"SyncedSideBar",
 		"Terminal",
 		"Theme - Soda",
-		"TrailingSpaces",
 		"ZenCoding"
 	]
 }
