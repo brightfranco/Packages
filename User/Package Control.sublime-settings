@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": 1335324929,
 	"installed_packages":
 	[
+		"Auto Semi-Colon",
 		"AutoFileName",
 		"BracketHighlighter",
 		"CoffeeScript",
