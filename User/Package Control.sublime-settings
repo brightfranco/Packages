@@ -1,7 +1,8 @@
 {
-	"auto_upgrade_last_run": 1335324929,
+	"auto_upgrade_last_run": 1336240040,
 	"installed_packages":
 	[
+		"ApacheConf.tmLanguage",
 		"Auto Semi-Colon",
 		"AutoFileName",
 		"BracketHighlighter",
