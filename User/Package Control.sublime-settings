@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1336240040,
+	"auto_upgrade_last_run": 1340296093,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
@@ -15,6 +15,7 @@
 		"jQuery Snippets pack",
 		"JsFormat",
 		"Live CSS",
+		"Markdown Preview",
 		"Nettuts+ Fetch",
 		"Package Control",
 		"Prefixr",
