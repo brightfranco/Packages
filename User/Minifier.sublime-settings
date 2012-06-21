@@ -1,0 +1,8 @@
+{
+    // the default optimization level to use for minification
+    "optimization_level": "SIMPLE_OPTIMIZATIONS",
+
+    // the compiler to use for minification.
+    // Accepted values are: google_closure|uglify_js
+    "compiler": "uglify_js"
+}
