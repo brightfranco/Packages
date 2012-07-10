@@ -1,4 +1,6 @@
 {
+	"sublimelinter_disable": ["css","python"],
+	"sublimelinter_delay": 0.5,
 	"javascript_linter": "jshint",
 	"jshint_options": {
 		"forin": true,
