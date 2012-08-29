@@ -32,6 +32,7 @@
 	"folder_exclude_patterns":
 	[
 		".svn",
+		".bundle",
 		".git",
 		".hg",
 		"CVS",
