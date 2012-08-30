@@ -1,0 +1,8 @@
+<snippet>
+		<content><![CDATA[
+debug.log '${1:$TM_SELECTED_TEXT}: ', $1
+]]></content>
+		<tabTrigger>de</tabTrigger>
+		<scope>source.coffee,source.coffee.jquery</scope>
+		<description>debug.log a variable</description>
+</snippet>
