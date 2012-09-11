@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1346268247,
+	"auto_upgrade_last_run": 1347348886,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
@@ -16,6 +16,7 @@
 		"jQuery Snippets pack",
 		"JsFormat",
 		"JsMinifier",
+		"LESS",
 		"Live CSS",
 		"Markdown Preview",
 		"Nettuts+ Fetch",
