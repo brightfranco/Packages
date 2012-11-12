@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352103436,
+	"auto_upgrade_last_run": 1352709194,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
@@ -13,7 +13,6 @@
 		"HtmlTidy",
 		"jQuery",
 		"jQuery Snippets pack",
-		"JS2Coffee",
 		"JsFormat",
 		"JsMinifier",
 		"LESS",
