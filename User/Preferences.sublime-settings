@@ -36,8 +36,7 @@
 		".git",
 		".hg",
 		"CVS",
-		".sass-cache",
-		"build"
+		".sass-cache"
 	],
 	"font_face": "Meslo LG L DZ",
 	"font_size": 12.0,
