@@ -3,6 +3,8 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Themes/Tomorrow/Tomorrow-Night.tmTheme",
 	"detect_indentation": true,
+	"draw_indent_guides": true,
+	// "indent_guide_options": "active_stippled",
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"file_exclude_patterns":
