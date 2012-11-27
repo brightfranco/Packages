@@ -4,7 +4,6 @@
 	"color_scheme": "Packages/User/Themes/Tomorrow/Tomorrow-Night.tmTheme",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
-	// "indent_guide_options": "active_stippled",
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"file_exclude_patterns":
@@ -48,6 +47,11 @@
 	[
 		"Vintage",
 		"SyncedSideBar"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
