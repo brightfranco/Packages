@@ -126,7 +126,7 @@
     }, 
     {
         "keys": [
-            "ctrl+alt+,"
+            "ctrl+shift+0"
         ], 
         "args": {
             "action": "match_pair_inward"
