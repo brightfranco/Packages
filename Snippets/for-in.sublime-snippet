@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+	for (var ${1:key} in ${2:object}) {
+		if (${2:object}.hasOwnProperty(${1:key})) {
+
+			console.log('${2:object} ' + ${1:key} + ':', ${2:object}[${1:key}]);
+			console.log('JSON.stringify ${2:object} ' + ${1:key} + ':', JSON.stringify(${2:object}[${1:key}], null, "\t"));
+
+			${3}
+
+		}
+	}
+	]]></content>
+	<tabTrigger>for in</tabTrigger>
+	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
+	<description>for in loop</description>
+</snippet>
