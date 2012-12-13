@@ -9,6 +9,8 @@
 		"CoffeeScript",
 		"Default File Type",
 		"Emmet",
+		"FileDiffs",
+		"GitGutter",
 		"Haml",
 		"HTML5",
 		"HtmlTidy",
