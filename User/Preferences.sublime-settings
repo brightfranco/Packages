@@ -1,5 +1,6 @@
 {
 	"auto_indent": true,
+	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Themes/Tomorrow/Tomorrow-Night.tmTheme",
 	"detect_indentation": true,
