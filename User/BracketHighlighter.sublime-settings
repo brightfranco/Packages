@@ -8,5 +8,8 @@
     "tag_style"   : "outline",
 
     // Threshold distance to search
-    "search_threshold"     : 2500
+    "search_threshold"     : 3500,
+    "tag_search_threshold" : 3500,
+    "use_search_threshold"     : true,
+    "tag_use_search_threshold" : true
 }

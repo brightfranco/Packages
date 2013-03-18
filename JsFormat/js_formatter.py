@@ -1,6 +1,46 @@
-import sublime, sublime_plugin, jsbeautifier, re
+import sublime, sublime_plugin, re, sys, os
 
-s = sublime.load_settings("JsFormat.sublime-settings")
+directory = os.path.dirname(os.path.realpath(__file__))
+libs_path = os.path.join(directory, "libs")
+
+# crazyness to get jsbeautifier.unpackers to actually import
+# with sublime's weird hackery of the path and module loading
+if libs_path not in sys.path:
+	sys.path.append(libs_path)
+
+# if you don't explicitly import jsbeautifier.unpackers here things will bomb out,
+# even though we don't use it directly.....
+import jsbeautifier, jsbeautifier.unpackers
+import merge_utils
+
+s = None
+
+def plugin_loaded():
+	global s
+	s = sublime.load_settings("JsFormat.sublime-settings")
+
+if sys.version_info < (3, 0):
+	plugin_loaded()
+
+class PreSaveFormatListner(sublime_plugin.EventListener):
+	"""Event listener to run JsFormat during the presave event"""
+	def on_pre_save(self, view):
+		fName = view.file_name()
+		vSettings = view.settings()
+		syntaxPath = vSettings.get('syntax')
+		syntax = ""
+		ext = ""
+
+		if (fName != None): # file exists, pull syntax type from extension
+			ext = os.path.splitext(fName)[1][1:]
+		if(syntaxPath != None):
+			syntax = os.path.splitext(syntaxPath)[0].split('/')[-1].lower()
+
+		formatFile = ext in ['js', 'json'] or "javascript" in syntax or "json" in syntax
+
+		if(s.get("format_on_save") == True and formatFile):
+			view.run_command("js_format")
+
 
 class JsFormatCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
@@ -17,7 +57,9 @@ class JsFormatCommand(sublime_plugin.TextCommand):
 		opts.keep_array_indentation = s.get("keep_array_indentation") or False
 		opts.keep_function_indentation = s.get("keep_function_indentation") or False
 		opts.indent_with_tabs = s.get("indent_with_tabs") or False
-		opts.space_before_line_starters = s.get("space_before_line_starters") or False
+		opts.eval_code = s.get("eval_code") or False
+		opts.unescape_strings = s.get("unescape_strings") or False
+		opts.break_chained_methods = s.get("break_chained_methods") or False
 
 		selection = self.view.sel()[0]
 		nwsOffset = self.prev_non_whitespace()
@@ -35,11 +77,12 @@ class JsFormatCommand(sublime_plugin.TextCommand):
 		else:
 			replaceRegion = sublime.Region(0, self.view.size())
 
-		res = jsbeautifier.beautify(self.view.substr(replaceRegion), opts)
-		if(not formatSelection and settings.get('ensure_newline_at_eof_on_save')):
-			res = res + "\n"
+		orig = self.view.substr(replaceRegion)
+		res = jsbeautifier.beautify(orig, opts)
 
-		self.view.replace(edit, replaceRegion, res)
+		_, err = merge_utils.merge_code(self.view, edit, orig, res)
+		if err:
+			sublime.error_message("JsFormat: Merge failure: '%s'" % err)
 
 		# re-place cursor
 		offset = self.get_nws_offset(nwsOffset, self.view.substr(sublime.Region(0, self.view.size())))
