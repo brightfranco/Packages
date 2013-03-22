@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[console.${2:log}('${1:debug message}');]]></content>
-    <tabTrigger>co</tabTrigger>
-	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-    <description>Console log</description>
-</snippet>

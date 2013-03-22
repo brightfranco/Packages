@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[${1:string}.match(/${2:pattern}/gi);]]></content>
-	<tabTrigger>match</tabTrigger>
-	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-	<description>String match</description>
-</snippet>

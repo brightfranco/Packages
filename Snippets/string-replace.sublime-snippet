@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[${1:string}.replace(/${2:pattern}/gi, "${4:value}");]]></content>
-	<tabTrigger>replace</tabTrigger>
-	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-	<description>String replace</description>
-</snippet>

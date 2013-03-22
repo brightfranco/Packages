@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[(function() {
-	${0:// Do stuff...}
-})();]]></content>
-	<tabTrigger>fun</tabTrigger>
-	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-	<description>Anonymous Function (self-invoking)</description>
-</snippet>

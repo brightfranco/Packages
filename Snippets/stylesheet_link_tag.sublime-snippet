@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[= stylesheet_link_tag "${1:filename}"]]></content>
-    <tabTrigger>stylesheet</tabTrigger>
-    <scope>text.haml</scope>
-    <description>stylesheet_link_tag</description>
-</snippet>

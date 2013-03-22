@@ -1,8 +1,0 @@
-<snippet>
-		<content><![CDATA[
-console.log('JSON.stringify(${1:$TM_SELECTED_TEXT}): ', JSON.stringify($1, null, "\t"));
-]]></content>
-		<tabTrigger>json</tabTrigger>
-		<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-		<description>Console log JSON.stringify with pretty-print</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[addEventListener('${1:click/mousedown/mouseup/mouseover/mousemove/mouseout}', function (e) {
-	${2:// Do something}
-}, false);]]></content>
-	<tabTrigger>event</tabTrigger>
-	<scope>source.js,source.js.jquery,source.js.embedded.html</scope>
-	<description>Add event listener (anonymous)</description>
-</snippet>
