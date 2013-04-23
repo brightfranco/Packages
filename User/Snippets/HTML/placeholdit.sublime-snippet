@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<img src="http://placehold.it/${1:width}x${2:height}&text=${3:text+in+image}">]]></content>
+	<tabTrigger>placehold</tabTrigger>
+	<scope>source.php,text.html</scope>
+	<description>Placehold.it image</description>
+</snippet>
