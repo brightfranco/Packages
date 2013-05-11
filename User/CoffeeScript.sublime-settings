@@ -22,7 +22,7 @@
 		Put false to disable
 		Put a number of seconds to delay the refresh
 	*/
-,	"watchOnModified": 0.5
+,	"watchOnModified": 1
 	/*
 		Enable Compiling on save. It will compile into the same folder.
 	*/
