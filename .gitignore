@@ -47,7 +47,8 @@
 /Vintage/
 /XML/
 /YAML/
-/User/Themes/Tomorrow/Colorized*
+/User/Themes/Colorized*
 Package Control.last-run
 *.tmTheme.cache
 .phptidy-cache
+Livecss.sublime-settings
